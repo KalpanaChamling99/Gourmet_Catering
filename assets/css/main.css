@@ -1,0 +1,207 @@
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body {
+	font-family: "Times New Roman", Georgia, Serif;
+	margin: 0;
+}
+/*---------------------------------------------
+**Common Style
+*----------------------------------------------*/
+.container{
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #F1F1F1;
+	margin: 75px 60px 0px 150px;
+	
+}
+.clearfix::after{
+	clear: both;
+	display: block;
+	content: "";
+}
+.col-half{
+	width: 50%;
+	float: left;
+}
+
+.catering-container-margin,.menu-container-margin, .contact-container-margin{
+	margin-top: 105px;
+	margin-right: 150px;
+}
+
+.image h1,.catering-content h1 ,.catering-content h2,.menu-content h1,.menu-content h2,.contact h1{
+	text-align: center;
+	font-family: Playfair display;
+	letter-spacing: 5px;
+
+}
+
+.catering-content h1,.menu-content h1,.contact h1{
+	font-size: 36px;
+	line-height: 54px;
+	margin-bottom: 70px;
+}
+.menu-text,.catering p,.menu-content dd,.contact p,.form-control,.footer-text{
+	font-size: 15px;
+	line-height: 22.5px;
+}
+
+.catering-image img,.menu-image img {
+	max-width: 100%;
+	margin-bottom: 100px;
+}
+.btn-primary:hover,a:hover,.menu-text:hover{
+	cursor: pointer;
+	background-color: #CCCCCC;
+}
+
+
+/*---------------------------------------------
+**Navigation menu
+*----------------------------------------------*/
+.nav-menu{
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	width: 100%;
+	margin: 0;
+	height: 55px;
+	background-color: #FFF;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.16);
+}
+
+.right-menu,.left-menu{
+	margin: 5px 30px;
+}
+.right-menu{
+	text-align: right;
+}
+.left-menu{
+
+}
+.menu-text{
+	display: inline-block;
+	padding: 8px 16px; 
+	letter-spacing: 4px;
+
+}
+
+/*--------------------------------
+**Image Section
+*---------------------------------*/
+.image{
+position: relative;	
+	
+}
+.image img{
+	width: 100%;
+}
+.image h1{
+	position: absolute;
+	bottom: 30px;
+	left: 25px;
+	opacity: 0.50;
+}
+
+
+/*--------------------------------
+**Catering Section
+*---------------------------------*/
+.catering-content{
+	margin-top: 25px;
+}
+.catering-content h2,.catering-content p{
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.catering-content p{
+	margin-left: 55px;
+}
+.second-paragraph{
+	color: #757575;
+}
+/*--------------------------------
+**Menu Section
+*---------------------------------*/
+.menu-content dt,.menu-content  dd{
+	margin-left: 0;
+}
+.menu-content dt{
+	font-size: 20px;
+	font-weight: bolder;
+	letter-spacing: 5px;
+	line-height: 30px;
+	font-family: Playfair display;
+
+}
+.menu-content dd{
+	margin-top: 35px;
+	color: #757575;
+	margin-bottom: 65px;
+}
+
+
+/*--------------------------------
+**Contact Section
+*---------------------------------*/
+.contact h1{
+	text-align: left;
+	margin-top: 0;
+}
+
+.contact h2{
+	color: #607d8b;
+	text-align: left;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: bold;
+	margin-top: 35px;
+
+}
+
+.form-group{
+	margin-bottom: 35px;
+}
+.form-control{
+	width: 100%;
+	border-style: none;
+	height: 55px;
+	border-bottom-style: solid;
+	border-width: 1px;
+	padding: 10px;
+	border-color: #F1F1F1;
+	padding-bottom: 15px;
+}
+.contact button{
+	margin-bottom: 95px;
+}
+.btn-primary{
+	width: 145px;
+	height: 45px;
+	padding: 10px;
+	font-size: 15px;
+	border-style: none;
+}
+
+/*--------------------------------
+**Footer Section
+*---------------------------------*/
+footer{
+	height: 110px;
+	border: solid 1px #F1F1F1;
+	background-color: #F1F1F1; 
+}
+.footer-text{
+	text-align: center;
+	padding-top: 50px;
+}
+footer a{
+	color: #000;
+}
+footer a:hover{
+	color: #4CAF50;
+}
